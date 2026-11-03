@@ -1,6 +1,7 @@
 <?php
 
 class AuthModel {
+	protected $db;
     public function __construct()
     {
         $this->db = new Database;

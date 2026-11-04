@@ -19,6 +19,7 @@
    
    // Obtener la lista de estados para los selects
    $router->get('/api/estados', ['TareaController', 'estados']);
+   $router->get('/api/roles', ['RolController', 'index']);
 
    // Obtener listado de tareas (opcionalmente filtrado por id_estado)
    $router->get('/api/tareas', ['TareaController', 'index']);
